@@ -13,9 +13,15 @@ body {
 	}
 
 /* Style rule for Header */
-.background {
-    max-width: 100%;
-    }
+.hero {
+    background-image: url("images/siyuan-g_V2rt6iG7A-unsplash-logo.jpg");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 450px;
+    max-width: auto;              
+    position: relative;
+}
 
 /* Style rule for Navigation for Desktop Viewport */
 .nav {
@@ -208,6 +214,11 @@ main {
     .nav > #nav-check:checked ~ .nav-links {
       height: calc(100vh - 50px);
       overflow-y: auto;
+    }
+
+    .hero {
+        height: 50vh;
+        background-position: top center;
     }
 
     /* Style rule for Main for Mobile Viewport */
